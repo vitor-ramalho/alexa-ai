@@ -1,38 +1,40 @@
 {
     "interactionModel": {
-      "languageModel": {
-        "intents": [
-          {
-            "name": "AMAZON.CancelIntent",
-            "samples": []
-          },
-          {
-            "name": "AMAZON.HelpIntent",
-            "samples": []
-          },
-          {
-            "name": "AMAZON.StopIntent",
-            "samples": []
-          },
-          {
-            "name": "AMAZON.NavigateHomeIntent",
-            "samples": []
-          },
-          {
-            "slots": [
-              {
-                "name": "query",
-                "type": "AMAZON.Person"
-              }
+        "languageModel": {
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "slots": [
+                        {
+                            "name": "query",
+                            "type": "AMAZON.SearchQuery"
+                        }
+                    ],
+                    "name": "GptQueryIntent",
+                    "samples": [
+                        "ask {query}",
+                        "tell me about {query}",
+                        "what is {query}"
+                    ]
+                }
             ],
-            "name": "GptQueryIntent",
-            "samples": [
-              "{query}"
-            ]
-          }
-        ],
-        "types": [],
-        "invocationName": "Sênior Mode"
-      }
+            "types": [],
+            "invocationName": "senior mode"
+        }
     }
-  }
+}
