@@ -1,41 +1,45 @@
 {
     "manifest": {
-      "apis": {
-        "custom": {
-          "endpoint": {
-            "uri": "arn:aws:lambda:us-east-1:388806798322:function:b401a0f7-35a7-4480-b780-2d6cc16fa517:Release_0"
-          },
-          "interfaces": [],
-          "locales": {},
-          "regions": {
-            "NA": {
-              "endpoint": {
-                "uri": "arn:aws:lambda:us-east-1:388806798322:function:b401a0f7-35a7-4480-b780-2d6cc16fa517:Release_0"
-              }
-            },
-            "EU": {
-              "endpoint": {
-                "uri": "arn:aws:lambda:eu-west-1:388806798322:function:b401a0f7-35a7-4480-b780-2d6cc16fa517:Release_0"
-              }
-            },
-            "FE": {
-              "endpoint": {
-                "uri": "arn:aws:lambda:us-west-2:388806798322:function:b401a0f7-35a7-4480-b780-2d6cc16fa517:Release_0"
-              }
+        "apis": {
+            "custom": {
+                "endpoint": {
+                    "uri": "arn:aws:lambda:us-east-1:388806798322:function:b401a0f7-35a7-4480-b780-2d6cc16fa517:Release_0"
+                },
+                "interfaces": [],
+                "locales": {
+                    "en-US": {
+                        "name": "Senior Mode"
+                    }
+                },
+                "regions": {
+                    "NA": {
+                        "endpoint": {
+                            "uri": "arn:aws:lambda:us-east-1:388806798322:function:b401a0f7-35a7-4480-b780-2d6cc16fa517:Release_0"
+                        }
+                    },
+                    "EU": {
+                        "endpoint": {
+                            "uri": "arn:aws:lambda:eu-west-1:388806798322:function:b401a0f7-35a7-4480-b780-2d6cc16fa517:Release_0"
+                        }
+                    },
+                    "FE": {
+                        "endpoint": {
+                            "uri": "arn:aws:lambda:us-west-2:388806798322:function:b401a0f7-35a7-4480-b780-2d6cc16fa517:Release_0"
+                        }
+                    }
+                }
             }
-          }
-        }
-      },
-      "manifestVersion": "1.0",
-      "publishingInformation": {
-        "distributionCountries": [],
-        "isAvailableWorldwide": true,
-        "locales": {
-          "pt-BR": {
-            "name": "ChatGPT"
-          }
         },
-        "testingInstructions": "Sample Testing Instructions."
-      }
+        "manifestVersion": "1.0",
+        "publishingInformation": {
+            "distributionCountries": [],
+            "isAvailableWorldwide": true,
+            "locales": {
+                "en-US": {
+                    "name": "Senior Mode"
+                }
+            },
+            "testingInstructions": "Sample Testing Instructions."
+        }
     }
-  }
+}
